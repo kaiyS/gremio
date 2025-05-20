@@ -1,0 +1,113 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4a0000;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background-color: #4a0000;
+    color: white;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #333;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #4a0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a0000;
+}
+
+.chat-container{ 
+    text-align: center;
+}
+
+.contato {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  .botao-whatsapp {
+    background-color: #25D366;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  .botao-whatsapp:hover {
+    background-color: #1ebc59;
+  }
